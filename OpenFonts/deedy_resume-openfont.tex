@@ -58,7 +58,7 @@
 %     LAST UPDATED DATE
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\lastupdated
+% \lastupdated
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -69,7 +69,7 @@
 % \href{mailto:deedy@fb.com}{deedy@fb.com} | 607.379.5733 | \href{mailto:dd367@cornell.edu}{dd367@cornell.edu}
 % }
 \namesection{Timothy}{Cheng}{
-\href{mailto:timothycheng222@gmail.com}{timothycheng222@gmail.com}
+\href{mailto:timothycheng222@gmail.com}{timothycheng222@gmail.com} | LinkedIn://  \href{https://www.linkedin.com/in/timothycheng222/}{\bf timothycheng222} \\
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -86,17 +86,25 @@
 
 \section{Skills}
 \subsection{Software}
-Python (Celery, Flask, PyTest) \textbullet{}   Bash \textbullet{} Python \textbullet{} Javascript \\
-OCaml \textbullet{} Matlab \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
-\subsection{Frameworks}
-C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
-\subsection{Programming}
-R
+Python (Celery, Flask, PyTest) \textbullet{} Bash \textbullet{} C \textbullet{} Javascript 
+\\
+\subsection{Backend}
+Linux \textbullet{} AWS (ECS/Fargate, Lambda, CloudFormation, API Gateway, IAM, EC2, Lambda, RDS, Cloudwatch) \\
+\textbullet{} nginx \textbullet{} Systemd \textbullet{} Docker \textbullet{} \\ RabbitMQ
+\\
+\subsection{Database} 
+MySQL \textbullet{} Redis 
+\\
+\subsection{Documentation}
+\textbullet{} Confluence \textbullet{} git \textbullet{} Trello
+\\
+\subsection{Philosophies}
+IaC \textbullet{} DevOps 
+\textbullet{} Blameless Culture \\ \textbullet{} TDD (Go Slow to Go Fast) \textbullet{} Logging \textbullet{}
+To document is to communicate \textbullet{} \\ Automation \textbullet{} Security Mindset
+
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EDUCATION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Education} 
 
@@ -109,13 +117,6 @@ Graduated with Distinction\\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LINKS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Links}
-% Github:// \href{https://github.com/chengt1}{\bf deedydas} \\
-LinkedIn://  \href{https://www.linkedin.com/in/timothycheng222/}{\bf timothycheng222} \\
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -124,26 +125,22 @@ LinkedIn://  \href{https://www.linkedin.com/in/timothycheng222/}{\bf timothychen
 \subsection{Undergraduate}
 Introduction to Cybersecurity \\
 Software Engineering \\
-Computer Networking ll \\
+Computer Networking l \& ll \\
 Introduction to Relational Databases \\
-Computer Communications \\
 Building Modern Web Applications \\
-Basics of Computer Systems \\
 Engineering Management \\
-Intermediate Algorithm Design and Analysis \\
-Basic Algorithms and Data Structures
+Algorithm Design \& Analysis \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Certifications
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Certifications}
-\href{https://www.credly.com/badges/31410198-3cd9-41b5-8a41-ef23b5e016b3}{\descript{CompTIA Security+}} | \location{Jul 2021}
+\href{https://www.credly.com/badges/31410198-3cd9-41b5-8a41-ef23b5e016b3}{CompTIA Security+} | \location{Jul 2021}
 
+\href{https://www.credly.com/earner/earned/badge/6ab55f9c-1900-4a88-a78f-9402f830ab07}{AWS Certified Developer Associate} | \location{Apr 2021}
 
-\href{https://www.credly.com/earner/earned/badge/6ab55f9c-1900-4a88-a78f-9402f830ab07}{\descript{AWS Certified Developer Associate}} | \location{Apr 2021}
-
-\href{https://www.credly.com/badges/1cc9f0d7-2ca2-475e-a5d6-485dc3b4123e}{\descript{AWS Certified Cloud Practitioner}} | \location{Sep 202}
+\href{https://www.credly.com/badges/1cc9f0d7-2ca2-475e-a5d6-485dc3b4123e}{AWS Certified Cloud Practitioner} | \location{Sep 202}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -164,30 +161,37 @@ Basic Algorithms and Data Structures
 \descript{Software Engineer |}\location{Jun 2021 - Present}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-    \item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
-    \item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
-    \item Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play
+    \item Refactored and documented legacy python \textbf{celery} API codebase by implementing unit and integrated testing into deployment process and writing multiple confluence pages and readme.
+    \item Spearheaded a company-wide effort to create a single source of truth by documenting all legacy systems and production services using \textbf{Confluence}
+    \item Onboarded new engineer to familiarize with company tech stack, tools, and knowledge base
+    \item Worked with hardware vendors to troubleshoot integration issues with high value clients
+    \item Identified and fixed bugs in production OCPP server \textbf{C} source code
+    \item Eliminated labor intensive process of setting up APIs by writing bash scripts with user friendly prompts and feedback
 \end{tightemize}
 \descript{Junior Software Engineer |}\location{Jun 2020 - Jun 2021}
 % \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-    \item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
-    \item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
-    \item Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play
+    \item Developed serverless backend infrastructure for client administrator dashboard using AWS Lambda, Cloud9, RDS, MySQL
+    \item Migrated server from EC2 to scalable, fault tolerant and resilient infrastructure using AWS ECR, ECS, ALB, and Docker
+    \item Automated deployments using Cloudformation, AWS CLI and bash
 \end{tightemize}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Projects}
 
-\runsubsection{Phabricator}
-\descript{| Open Source Contributor \& Team Leader}
-\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
+\href{https://www.youtube.com/watch?v=WxmXLgdtLPQ}{\runsubsection{Dynamic Parking Signage}}
+\descript{| Software \& Firmware Lead}
+\location{Jan 2013 – May 2013 | UBC Capstone}
+Solar- and battery-powered parking sign for client UBC Parking and Access Services. Wireless e-ink display controlled from web application via LTE cat M1 and MQTT. 
 \begin{tightemize}
 \item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.
 \item I created the Meme generator and more in PHP and Shell.
 \item Led a team from MIT, Cornell, IC London and UHelsinki for the project.
 \end{tightemize}
 \sectionsep
-\runsubsection{Phabricator}
+\runsubsection{QuickPark}
 \descript{| Open Source Contributor \& Team Leader}
 \location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
 \begin{tightemize}
